@@ -1,2 +1,2 @@
-# aws-pipeline-test
-aws-pipeline-test
+# aws-pipeline-test-java
+aws-pipeline-test-java
