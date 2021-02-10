@@ -4,4 +4,4 @@ From tomcat:8
 MAINTAINER "vijaybirru" 
 
 # copy war file on to container 
-COPY target/*.jar /usr/local/tomcat/webapps/
+COPY target/*.jar /usr/local/tomcat/webapps
