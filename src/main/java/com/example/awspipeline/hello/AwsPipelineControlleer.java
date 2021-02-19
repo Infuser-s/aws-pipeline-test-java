@@ -17,7 +17,7 @@ public class AwsPipelineControlleer {
 
 	@GetMapping("/hello/{name}")
 	public ResponseEntity<Object> sayHello(@PathVariable String name) {
-		log.debug("AwsPipelineControlleer.sayHello() - Name = "+name);
+		log.debug("AwsPipelineControlleer.sayHello() - Name = "+ name);
 		String response = "Hello - "+name+" !! - Last updated: 19 Feb 2021 (Friday), 9:35 pm IST";
 		
 		return ResponseEntity.ok(response);
