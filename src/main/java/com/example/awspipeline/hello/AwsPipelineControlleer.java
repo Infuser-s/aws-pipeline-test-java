@@ -17,7 +17,7 @@ public class AwsPipelineControlleer {
 	
     @RequestMapping("/")
     String home() {
-        return "Hello Dear - AWS CICD - Java RESTful Service TEST @ 1:35 PM 20 Feb 2021 IST";
+        return "Hello Dear - AWS CICD - Java RESTful Service TEST @ 12:14 PM 21 Feb 2021 IST";
     }
 
 	@GetMapping("/hello/{name}")
