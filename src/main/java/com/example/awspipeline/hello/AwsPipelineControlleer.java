@@ -1,5 +1,7 @@
 package com.example.awspipeline.hello;
 
+import java.time.LocalDateTime;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +19,7 @@ public class AwsPipelineControlleer {
 	
     @RequestMapping("/")
     String home() {
-        return "Hello Dear - AWS CICD - Java RESTful Service TEST @ 12:14 PM 21 Feb 2021 IST";
+        return "Hello Dear - AWS CICD - Java RESTful Service TEST @ 12:14 PM 21 Feb 2021 IST. API served at: " + LocalDateTime.now();
     }
 
 	@GetMapping("/hello/{name}")
